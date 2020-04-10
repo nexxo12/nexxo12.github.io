@@ -70,6 +70,10 @@ a.dropdown-item{
   height: 100%;
 }
 
+.space-footer{
+  width: 13%;
+}
+
 img.content-footer{
   width: 90%;
 }
@@ -87,36 +91,11 @@ a.footer-link{
   color: darkgrey;
 }
 
-h4{
-  padding-top: 30px;
+.card{
+  box-shadow: 1px 7px 5px #aaaaaa;
+
 }
 
-h5{
-  margin-top: 24px;
-}
-
-.simulasi{
-  margin-left: 24px;
-  margin-bottom: 50px;
-  margin-right: 24px;
-}
-
-.col-md-1{
-  position: relative;
-  right: 30px;
-}
-
-.col-md-3{
-  position: relative;
-  right: 30px;
-}
-
-
-.qty{
-  width: 100%;
-}
-
-.button{
-  position: relative;
-  bottom: 27px;
+.space{
+  width: 10%;
 }
