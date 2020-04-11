@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>SSD & HDD List - VSComp</title>
+  <title>Cek Ongkir - VSComp</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -64,130 +64,76 @@
 </div>
 <br><br>
 
-<h4 align="center">SSD & HDD Stock</h4>
 <div class="container">
-  <hr noshade></hr>
-  <table class="table table-borderless">
-    <thead>
-      <tr>
-        <th scope="col" width="0">ID</th>
-        <th scope="col">Nama</th>
-        <th scope="col" width="0">Jumlah</th>
-        <th scope="col" width="0">Satuan</th>
-        <th scope="col">Harga</th>
-        <th scope="col">Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>XPG SX8200 256GB M.2 NVME</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>XPG SX8200 256GB M.2 NVME</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>XPG SX8200 256GB M.2 NVME</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Seagate 1TB Baracuda</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Seagate 1TB Baracuda</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Seagate 1TB Baracuda</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Seagate 1TB Baracuda</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Seagate 1TB Baracuda</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Seagate 1TB Baracuda</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Seagate 1TB Baracuda</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Seagate 1TB Baracuda</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Seagate 1TB Baracuda</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Seagate 1TB Baracuda</td>
-        <td>200</td>
-        <td>Unit</td>
-        <td>470.000</td>
-        <td>Ready</td>
-      </tr>
-    </tbody>
-  </table>
-</div> <!-- end container -->
+  <h4>Cek Ongkir</h4>
+  <hr size="10" noshade>
+  <div class="row">
+    <div class="input-ongkir">
+        <div class="input-position">
+        <div class="form-group">
+          <label for="usr">Kota Asal :</label>
+          <select class="form-control" id="sel1">
+            <option>--Kota Asal--</option>
+            <option>Surabaya</option>
+            <option>Jakarta</option>
+            <option>Banyuwangi</option>
+          </select>
+          <br>
+          <label for="usr">Kota Tujuan :</label>
+          <select class="form-control" id="sel1">
+            <option>--Kota Tujuan--</option>
+            <option>Surabaya</option>
+            <option>Jakarta</option>
+            <option>Banyuwangi</option>
+          </select>
+          <br>
+          <label for="usr">Berat Kiriman (gram) :</label>
+          <input type="text" class="form-control" id="berat" placeholder="berat (gram)">
+          <br>
+          <div class="button-cek">
+            <button type="submit" class="btn btn-primary w-50">Cek</button>
+          </div>
 
-<br><br><br>
+        </div> <!-- end from-grup -->
+      </div> <!-- end input-position -->
+    </div> <!-- end input-ongkir -->
+
+    <div class="h6">
+      <h6>Result :</h6>
+    </div>
+    <div class="result-ongkir">
+      <table class="table" width="100%">
+        <thead>
+          <tr>
+            <th scope="col">Kurir</th>
+            <th scope="col">Jenis Layanan</th>
+            <th scope="col">Tarif</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>POS INDONESIA</td>
+            <td>Kilat</td>
+            <td>Rp. 35.000</td>
+          </tr>
+          <tr>
+            <td>JNE</td>
+            <td>Reguler</td>
+            <td>Rp. 34.000</td>
+          </tr>
+          <tr>
+            <td>TIKI</td>
+            <td>ONS</td>
+            <td>Rp. 40.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+
+<br><br><br><br>
 
 
 <div class="footer-bawah">

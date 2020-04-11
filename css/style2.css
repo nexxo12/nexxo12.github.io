@@ -120,3 +120,27 @@ h5{
   position: relative;
   bottom: 27px;
 }
+
+@media only screen and (max-width: 600px) {
+  .qty{
+    width: 89.5%;
+    margin-left: 12%;
+    text-align: center;
+  }
+  .total{
+    display: none;
+  }
+  .form-qty{
+    position: absolute;
+    top: 1390px;
+  }
+  .form-harga{
+    position: absolute;
+    top: 750px;
+  }
+  .button{
+    position: relative;
+    top: 150%;
+    left: 20%;
+  }
+}
