@@ -123,7 +123,7 @@ h5{
 
 @media only screen and (max-width: 600px) {
   .qty{
-    width: 89.5%;
+    width: 89%;
     margin-left: 12%;
     text-align: center;
   }
@@ -141,6 +141,6 @@ h5{
   .button{
     position: relative;
     top: 150%;
-    left: 20%;
+    left: 30%;
   }
 }
