@@ -67,13 +67,7 @@ a.dropdown-item{
 .footer-bawah{
   background: #23272b;
   width: 100%;
-  height: auto;
-}
-
-@media only screen and (min-width: 600px) {
-  .footer-bawah {
-    height: 305px;
-  }
+  height: 305px;
 }
 
 
@@ -149,4 +143,31 @@ a.footer-link{
   .h6{
     display: none;
   }
+  .footer-bawah {
+    height: 620px;
+  }
+  .footer-item-position{
+    position: relative;
+    right: 12%;
+  }
+  .navbar-nav{
+    position: relative;
+    left: 40%;
+  }
+
+  .form-inline{
+    position: relative;
+    left: 30%;
+  }
+}
+
+.input-warranty{
+  width: 30%;
+  display: inline-flex
+
+}
+.text-contact{
+  display: inline-flex;
+  margin-left: 5px;
+  font-size: 17px;
 }

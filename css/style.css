@@ -113,12 +113,26 @@ img.gambar-produk:hover{
 .footer-bawah{
   background: #23272b;
   width: 100%;
-  height: auto;
+  height: 305px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   .footer-bawah {
-    height: 305px;
+    height: 620px;
+  }
+  .footer-item-position{
+    position: relative;
+    right: 12%;
+  }
+
+  .navbar-nav{
+    position: relative;
+    left: 40%;
+  }
+
+  .form-inline{
+    position: relative;
+    left: 30%;
   }
 }
 
