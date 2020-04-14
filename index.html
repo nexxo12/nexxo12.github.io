@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/aos.css">
   <script src="js/jquery-3.4.1.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="fontawesome/js/all.min.js"></script>
-  <script src="js/custom.js"></script>
+  <script src="js/aos.js"></script>
 </head>
 <body id="page-top">
 
@@ -98,7 +99,7 @@
 <div class="row">
   <div class="col-md-4 col-sm-12">
           <a href="prosessor.html">
-          <img class="gambar-produk" src="img/Prosessor2.jpg" alt="Motherboard">
+          <img class="gambar-produk" data-aos="zoom-in" data-aos-duration="1000" src="img/Prosessor2.jpg" alt="Motherboard">
           <div class="overlay">
             <div class="text">PROSESSOR</div>
           </div>
@@ -106,14 +107,14 @@
   </div>
   <div class="col-md-4 col-sm-12">
       <a href="motherboard.html">
-      <img class="gambar-produk" src="img/mobo.jpg" alt="Motherboard"></img></a>
+      <img class="gambar-produk" data-aos="zoom-in" data-aos-duration="1000" src="img/mobo.jpg" alt="Motherboard"></img></a>
       <div class="overlay">
         <div class="text">MOTHERBOARD</div>
       </div>
   </div>
   <div class="col-md-4 col-sm-12">
       <a href="memory.html">
-      <img class="gambar-produk" src="img/ram.jpg" alt="RAM"></img></a>
+      <img class="gambar-produk" data-aos="zoom-in" data-aos-duration="1000" src="img/ram.jpg" alt="RAM"></img></a>
       <div class="overlay">
         <div class="text">MEMORY</div>
       </div>
@@ -122,21 +123,21 @@
 <div class="row">
   <div class="col-md-4 col-sm-12">
       <a href="power-supply.html">
-      <img class="gambar-produk" src="img/psu.jpg" alt="Power Supply"></img></a>
+      <img class="gambar-produk" data-aos="zoom-in" data-aos-duration="1000" src="img/psu.jpg" alt="Power Supply"></img></a>
       <div class="overlay">
         <div class="text">POWER SUPPLY</div>
       </div>
   </div>
   <div class="col-md-4 col-sm-12">
       <a href="casing.html">
-      <img class="gambar-produk" src="img/case.jpg" alt="Casing"></img></a>
+      <img class="gambar-produk" data-aos="zoom-in" data-aos-duration="1000" src="img/case.jpg" alt="Casing"></img></a>
       <div class="overlay">
         <div class="text">CASING</div>
       </div>
   </div>
   <div class="col-md-4 col-sm-12">
       <a href="ssd-hdd.html">
-      <img class="gambar-produk" src="img/ssd.jpg" alt="SSD & HDD"></img></a>
+      <img class="gambar-produk" data-aos="zoom-in" data-aos-duration="1000" src="img/ssd.jpg" alt="SSD & HDD"></img></a>
       <div class="overlay">
         <div class="text">SSD & HDD</div>
       </div>
@@ -147,7 +148,10 @@
 <div class="container-fluid">
 <div class="row">
   <div class="col-md-4 col-sm-6 bg-dark">
-    <table class="table table-dark table-hover">
+    <table class="table table-dark table-hover" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="1000">
     <thead>
       <tr>
        <th><h3>NEWS</h3></th>
@@ -182,7 +186,7 @@
   </table>
   </div>
   <div class="col-md-4 col-sm-6 bg-dark">
-    <table class="table table-dark table-hover">
+    <table class="table table-dark table-hover" data-aos="fade-up" data-aos-duration="1000">
     <thead>
       <tr>
        <th><h3>VIDEOS</h3></th>
@@ -197,7 +201,10 @@
   </table>
   </div>
   <div class="col-md-4 col-sm-6 bg-dark">
-    <table class="table table-dark table-hover">
+    <table class="table table-dark table-hover" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="1000">
     <thead>
       <tr>
        <th><h3>PROMO</h3></th>
@@ -322,6 +329,9 @@ function scrollFunction() {
 }
 </script>
 
+<script type="text/javascript">
+  AOS.init({once: true,});
+</script>
 
 </body>
 </html>
