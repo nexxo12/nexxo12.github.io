@@ -159,6 +159,14 @@ a.footer-link{
     position: relative;
     left: 30%;
   }
+  .input-warranty > .form-control{
+    width: 200px;
+  }
+  .col-md-6{
+    position: relative;
+    right: 24%;
+  }
+
 }
 
 .input-warranty{
@@ -166,8 +174,29 @@ a.footer-link{
   display: inline-flex
 
 }
+
+.input-warranty > .btn{
+  margin-left: 10px;
+}
+
 .text-contact{
   display: inline-flex;
   margin-left: 5px;
   font-size: 17px;
+}
+.login-form{
+  position: relative;
+  left: 27.5%;
+  width: 90%;
+
+}
+.login-form-input{
+  width: 70%;
+  padding: 20px;
+  margin-left: 72px;
+}
+.col-md-6{
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px #aaaaaa;
+  border: 1px solid;
 }
