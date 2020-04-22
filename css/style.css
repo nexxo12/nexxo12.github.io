@@ -39,6 +39,11 @@ body{
     }
 }
 
+/* efek scroll  */
+#navbar #logo {
+  transition: 0.4s;
+}
+
 /* merubah warna background dropdown */
 .navbar-expand-sm .navbar-nav .dropdown-menu {
     position: absolute;
@@ -56,15 +61,18 @@ body{
     background-color: #fff;
 }
 
+/* merubah warna link dropdown */
 a.dropdown-item{
   color: white;
 }
 
+/* merubah posisi pencarian */
 .form-inline .form-control{
   width: 130px;
   margin-left: 20px;
 }
 
+/* mengatur gambar produk */
 img.gambar-produk{
   position: relative;
   width: 102%;
@@ -80,7 +88,9 @@ img.gambar-produk:hover{
   opacity: 0.5;
   transition: 0.4s ease-out;
 }
+/* end mengatur gambar produk */
 
+/* menambahkan kotak text di gambar produk */
 .overlay {
   position: absolute;
   height: 20%;
@@ -93,11 +103,13 @@ img.gambar-produk:hover{
   left: 2%;
 
 }
+/* menambahkan kotak text hover di gambar produk */
  .col-md-4:hover .overlay {
   opacity: 1;
   width: 99%;
 }
 
+/* menambahkan text di gambar produk*/
 .text {
   color: white;
   font-size: 30px;
@@ -110,12 +122,14 @@ img.gambar-produk:hover{
   text-align: center;
 }
 
+/* untuk footer */
 .footer-bawah{
   background: #23272b;
   width: 100%;
   height: 305px;
 }
 
+/* untuk mengatur responsive di mobile*/
 @media only screen and (max-width: 600px) {
   .footer-bawah {
     height: 620px;
@@ -135,26 +149,20 @@ img.gambar-produk:hover{
     left: 30%;
   }
 }
+/* end untuk mengatur responsive di mobile*/
 
-
+/* untuk gambar di footer */
 img.content-footer{
   width: 90%;
 }
 
+/* untuk tabel yang menampung gambar di footer */
 table.footer-table{
   margin-top: 20px;
   margin-left: 20px;
 }
 
-#navbar #logo {
-  transition: 0.4s;
-}
-
+/* untuk link di footer */
 a.footer-link{
   color: darkgrey;
-}
-
-.parallax{
-  width:100%;
-  height:800px;
 }

@@ -38,6 +38,10 @@ body{
     }
 }
 
+#navbar #logo {
+  transition: 0.4s;
+}
+
 /* merubah warna background dropdown */
 .navbar-expand-sm .navbar-nav .dropdown-menu {
     position: absolute;
@@ -79,8 +83,8 @@ table.footer-table{
   margin-left: 20px;
 }
 
-#navbar #logo {
-  transition: 0.4s;
+.space-footer{
+  width: 13%;
 }
 
 a.footer-link{
